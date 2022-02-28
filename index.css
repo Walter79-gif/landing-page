@@ -1,0 +1,112 @@
+*{
+    position: relative;
+    margin: 0;}
+.header{
+    background-color: #1f2937;
+}
+#img-logo{
+    margin: 10px;
+    max-width: 120px;
+    height: 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    flex: 2 1 auto;
+    gap: 25px;
+    padding-top: 10px;
+  
+}
+a, .para{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+#product-div{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+.product-header{
+    align-self: center;
+    text-align: center;
+
+}
+h2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.food-img{
+   
+    width: auto;
+    height: 300px;
+}
+.health{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+.h1{
+    width: 400px;
+    height: auto;
+    border: 2px #1f2937 solid;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+}
+#inspiration{
+    margin: 40px 0;
+    padding: 50px 40px 25px 40px;
+    max-width: 100%;
+    background-color: #e5e7eb;
+    height: 100px;
+    
+
+}
+.quote{
+text-align: center;
+font-size: 36px;
+color: #1f2937;
+}
+#sign-up{
+    background-color: #3882f6;
+    max-width: 60%;
+    height: 50px;
+    padding: 10px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign{
+    background-color: #3882f6;
+    border: 1px #fff solid;
+    padding: 4px;
+}
+.sign.up{
+    margin-top: 20px;
+}
+footer{
+    background-color: #1f2937;
+    height: 50px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+   
+    
+
+}
